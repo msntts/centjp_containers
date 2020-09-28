@@ -1,0 +1,8 @@
+version: '3'
+services: 
+  centjp:
+    build: '.'
+    image: 'centjp:8'
+    container_name: 'centjp'
+    tty: true
+    privileged: true
